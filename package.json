@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/siftbeam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sift timestamps and beam durations for scripts and CI receipts.",
+  "bin": {
+    "siftbeam": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/siftbeam.git"
+  },
+  "homepage": "https://theworker02.github.io/siftbeam/",
+  "keywords": [
+    "sift",
+    "beam",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
